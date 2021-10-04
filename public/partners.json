@@ -33,5 +33,30 @@
         "img": "https://prod-discovery.edx-cdn.org/organization/logos/44022f13-20df-4666-9111-cede3e5dc5b6-2cc39992c67a.png",
         "name": "Boston University",
         "role": "Contributor"
+    },
+    {
+        "img": "https://prod-discovery.edx-cdn.org/organization/logos/e0bfb887-eabd-4f4a-8583-7e5aa368b274-cb687d8acb0e.png",
+        "name": "Universidad del Rosario",
+        "role": "Contributor"
+    },
+    {
+        "img": "https://prod-discovery.edx-cdn.org/organization/logos/0b3b2258-7f32-4fb1-807a-87c79543347a-6c8ff3bf8f98.png",
+        "name": "Università degli Studi di Napoli Federico II",
+        "role": "Contributor"
+    },
+    {
+        "img": "https://prod-discovery.edx-cdn.org/organization/logos/f87a494a-5b61-4c1c-b9ff-0fefec519326-5578942be4e7.png",
+        "name": "Inter-American Development Bank",
+        "role": "Contributor"
+    },
+    {
+        "img": "https://prod-discovery.edx-cdn.org/organization/logos/9c05acb1-4527-4361-95e5-827457af9819-0a8984dce57b.png",
+        "name": "Hamad Bin Khalifa University",
+        "role": "Contributor"
+    },
+    {
+        "img": "https://prod-discovery.edx-cdn.org/organization/logos/da09dee6-19d9-4ad0-a027-f6c206b56656-23edf1cdf900.png",
+        "name": "Colgate University",
+        "role": "Contributor"
     }
 ]
