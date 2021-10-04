@@ -1,0 +1,10 @@
+.partner{
+    min-height: 300px !important;
+}
+.partner:hover{
+    border: 2px solid green !important;
+}
+.partner:hover .body{
+    background-color: rgba(128, 128, 128, 0.404) !important;
+
+}

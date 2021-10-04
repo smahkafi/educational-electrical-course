@@ -1,7 +1,7 @@
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fdac15-1.fna.fbcdn.net/v/t1.6435-9/67159349_2326211290988407_7778306946968322048_n.png?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEqQ-otxyZNcDKNmWVBady0l_jcQty2jBeX-NxC3LaMF14rPWDr2akz6QHQGhnnXLJNVDyudh1gR29YVi1AtLF7&_nc_ohc=iomUdAIHu0YAX8GRo3d&tn=0GFcTyHq2Ror9wnq&_nc_ht=scontent.fdac15-1.fna&oh=bdfad6d58836ac22fd68c73b4566b31d&oe=617F2C12");
     height: 100vh;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -32,6 +32,11 @@
   }
   
   .hero-text button:hover {
-    background-color: #555;
+    background-color: rgba(200, 233, 134, 0.061) !important;
     color: white;
   }
+
+  .buton{
+    background-color: transparent !important;
+  }
+

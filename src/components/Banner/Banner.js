@@ -6,9 +6,9 @@ const Banner = () => {
         <div>
             <div class="hero-image">
                 <div class="hero-text">
-                    <h1 >I am John Doe</h1>
-                    <p>And I'm a Photographer</p>
-                    <button>Hire me</button>
+                    <h1 className="text-uppercase">Make Master</h1>
+                    <p className="text-uppercase">Build Your Carrier & make master your self</p>
+                    <button className="text-uppercase buton border border-info">enroll here</button>
                 </div>
             </div>
         </div>
