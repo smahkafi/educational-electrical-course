@@ -9,7 +9,7 @@ const Partners = () => {
         .then(data => setPartners(data))
     },[])
     return (
-        <div>
+        <div className="container">
             <h2>
             Schools Partners
             </h2>
@@ -17,7 +17,7 @@ const Partners = () => {
                 partners.map(partner => 
                     <div className="row d-flex">
                         <div className="col-4">
-                            <div className="card" style={{width: "18rem"}}>
+                            <div className="card" style={{width: "auto"}}>
                                 <div>
                                     <img src={partner.img} className="card-img-top" alt="..."/>
                                 </div>

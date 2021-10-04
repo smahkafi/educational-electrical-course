@@ -6,7 +6,7 @@
         "name": "Sustainable Energy",
         "courseMaker": "UQX",
         "fee": 400,
-        "couseQantity": 3,
+        "cousreQantity": 3,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 6 weeks",
         "descriptions":{
@@ -23,7 +23,7 @@
         "name": "Solar Energy Engineering",
         "fee": 300,
         "courseMaker": "DelftX",
-        "couseQantity": 6,
+        "cousreQantity": 6,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 4 weeks",
         "descriptions":{
@@ -41,7 +41,7 @@
         "subName": "Desert Climates",
         "fee": 600,
         "courseMaker": "HBKUx",
-        "couseQantity": 8,
+        "cousreQantity": 8,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 9 weeks",
         "descriptions":{
@@ -60,7 +60,7 @@
         "subName2": "Constraints",
         "fee": 500,
         "courseMaker": "HarvardX",
-        "couseQantity": 4,
+        "cousreQantity": 4,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 6 weeks",
         "descriptions":{

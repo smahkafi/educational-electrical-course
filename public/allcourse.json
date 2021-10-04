@@ -6,7 +6,7 @@
         "name": "Sustainable Energy",
         "fee": 400,
         "courseMaker": "UQX",
-        "couseQantity": 3,
+        "cousreQantity": 3,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 6 weeks",
         "descriptions":{
@@ -25,7 +25,7 @@
         "subName2": "Constraints",
         "fee": 500,
         "courseMaker": "HarvardX",
-        "couseQantity": 4,
+        "cousreQantity": 4,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 6 weeks",
         "descriptions":{
@@ -42,7 +42,7 @@
         "name": "Solar Energy Engineering",
         "fee": 300,
         "courseMaker": "DelftX",
-        "couseQantity": 6,
+        "cousreQantity": 6,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 4 weeks",
         "descriptions":{
@@ -60,7 +60,7 @@
         "subName": "Desert Climates",
         "fee": 600,
         "courseMaker": "HBKUx",
-        "couseQantity": 8,
+        "cousreQantity": 8,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 9 weeks",
         "descriptions":{
@@ -79,7 +79,7 @@
         "subName2": "Urban Infrastructures",
         "fee": 500,
         "courseMaker": "EPFLx",
-        "couseQantity": 6,
+        "cousreQantity": 6,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 5 weeks",
         "descriptions":{
@@ -98,7 +98,7 @@
         "subName2": "(OCTG)",
         "fee": 1200,
         "courseMaker": "TenarisUniversity",
-        "couseQantity": 10,
+        "cousreQantity": 10,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 12 weeks",
         "descriptions":{
@@ -115,7 +115,7 @@
         "name": "Electric Cars: Technology",
         "fee": 700,
         "courseMaker": "DelftX",
-        "couseQantity": 7,
+        "cousreQantity": 7,
         "programBadge": "MicroMasters ® Program",
         "duration": "Estimated 8 weeks",
         "descriptions":{
@@ -133,7 +133,7 @@
         "subName2": "Sustainable Development",
         "fee": 950,
         "courseMaker": "SDGAcademyX",
-        "couseQantity": 9,
+        "cousreQantity": 9,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 9 weeks",
         "descriptions":{
@@ -150,7 +150,7 @@
         "name": "Electric Cars",
         "fee": 200,
         "courseMaker": "DelftX",
-        "couseQantity": 2,
+        "cousreQantity": 2,
         "programBadge": "Professional Certificate",
         "duration": "Estimated 2 weeks",
         "descriptions":{

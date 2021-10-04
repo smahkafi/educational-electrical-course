@@ -12,17 +12,20 @@ const Features = () => {
     return (
         <div>
             <Banner></Banner>
+            <h1>Feature Popular Courses</h1>
            { 
-            features.map(feature => <div>
+            features.map(feature => 
+            <div className="container">
                 <div className="home">
                     <div className="card" style={{width: "18rem"}}>
                         <div className="img">
                         <img src={feature.img} className="card-img-top" alt="..."/>
                         </div>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button>Go Anywhare</button>
+                            <h5 className="card-title">Course Name: {feature.name}</h5>
+                            <p className="card-text">Fee: $ {feature.fee}</p>
+                            <p className="card-text">Course Qantity: {feature.cousreQantity}</p>
+                            <p className="card-text">Duration: {feature.duration}</p>
                         </div>
                     </div>
                 </div>

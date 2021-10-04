@@ -16,8 +16,8 @@ const Services = () => {
             <div className="container">
             {
                 services.map(service => <div className="service row d-flex border border-primary mt-5 bg-secondary">
-                        <div className="col-5">
-                            <img className="justify-content center align-middle" src={service.img} alt="" />
+                        <div className="col-5 justify-content-center align-self-center">
+                            <img className="" src={service.img} alt="" />
                         </div>
                         
                         <div className="col-7 border">
