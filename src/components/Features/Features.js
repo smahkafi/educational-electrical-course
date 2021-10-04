@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
+import './Feature.css'
 
 const Features = () => {
     const [features, setFeatures] = useState([])
@@ -11,12 +12,12 @@ const Features = () => {
     return (
         <div>
             <Banner></Banner>
-            <h1>Feature Popular Courses</h1>
+            <h1 className="my-5">Feature Popular <span className="text-warning">Courses</span></h1>
+           <div className="container">
            <div className="row">
            { 
             features.map(feature => 
-            <div className="col-3">
-                <div className="container">
+            <div className="col-3 feature ">
                     <div className="card" style={{width: "18rem"}}>
                         <div className="img">
                         <img src={feature.img} className="card-img-top" alt="..."/>
@@ -28,10 +29,9 @@ const Features = () => {
                             <p className="card-text">Duration: {feature.duration}</p>
                         </div>
                     </div>
-                </div>
-
             </div>)
            }
+           </div>
            </div>
         </div>
     );

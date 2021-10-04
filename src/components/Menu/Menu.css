@@ -1,8 +1,11 @@
 .menu-link {
     color: black !important;
     text-decoration: none !important;
+    font-size: 22px;
 }
 .logo{
     width: 70px;
-    height: 55px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
 }
