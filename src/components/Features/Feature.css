@@ -1,4 +1,9 @@
 .feature{
-    margin: 0 !important;
+    margin: 20px 0 !important;
     padding: 0 !important;
+}
+.feature-card{
+    height: 400px;
+    margin: 0 5px;
+    border: 2px solid rgb(233, 215, 188)
 }

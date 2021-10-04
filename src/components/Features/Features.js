@@ -18,7 +18,7 @@ const Features = () => {
            { 
             features.map(feature => 
             <div className="col-3 feature ">
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card feature-card">
                         <div className="img">
                         <img src={feature.img} className="card-img-top" alt="..."/>
                         </div>
