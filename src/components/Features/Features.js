@@ -8,15 +8,15 @@ const Features = () => {
         .then(res => res.json())
         .then(data => setFeatures(data))
     },[])
-    console.log(setFeatures);
     return (
         <div>
             <Banner></Banner>
             <h1>Feature Popular Courses</h1>
+           <div className="row">
            { 
             features.map(feature => 
-            <div className="container">
-                <div className="home">
+            <div className="col-3">
+                <div className="container">
                     <div className="card" style={{width: "18rem"}}>
                         <div className="img">
                         <img src={feature.img} className="card-img-top" alt="..."/>
@@ -32,6 +32,7 @@ const Features = () => {
 
             </div>)
            }
+           </div>
         </div>
     );
 };

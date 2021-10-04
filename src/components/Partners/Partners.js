@@ -13,11 +13,11 @@ const Partners = () => {
             <h2>
             Schools Partners
             </h2>
+            <div className="row">
             {
                 partners.map(partner => 
-                    <div className="row d-flex">
-                        <div className="col-4">
-                            <div className="card" style={{width: "auto"}}>
+                        <div className="col-4 mt-3">
+                            <div className="card" style={{width: "18rem"}}>
                                 <div>
                                     <img src={partner.img} className="card-img-top" alt="..."/>
                                 </div>
@@ -27,9 +27,9 @@ const Partners = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
                     )
             }
+            </div>
             
         </div>
     );
