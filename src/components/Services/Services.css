@@ -7,6 +7,7 @@
 .boder{
     border: 0;
     border-left: 2px solid yellow;
+    border-radius: 0 5px;
     text-align: left;
 }
 .description-title{
@@ -14,4 +15,7 @@
     box-sizing: border-box;
     margin-right: 12px;
     border-right: 3px solid rgb(35, 15, 214);
+}
+.service{
+    border-radius: 0px 30px;
 }

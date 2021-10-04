@@ -12,22 +12,23 @@ const Services = () => {
     console.log(setServices);
     return (
         
-        <div className="services-background">
+        <div className="services-background mb-5">
             <div className="container">
+            <div>
             {
-                services.map(service => <div className="service row d-flex border border-primary mt-5 div-services">
+                services.map(service => 
+                <div className="service row d-flex border border-primary div-services mb-4">
                         <div className="col-5 justify-content-center align-self-center">
                             <img className="border border-danger" src={service.img} alt="" />
                         </div>
                         
                         <div className="col-7 boder mt-3">
-                            <h6>Id: {service.courseID}</h6>
-                            <h2>Name:   <span>
+                            <h2 className="text-center">        <span>
                                             {service.name} {service.subName} {service.subName2}
-                                        </span>
-                                      
+                                        </span>         
                             </h2>
                             <br />
+                            <h6>Id: {service.courseID}</h6>
                             <h6>Catagory: <span className="text-warning">{service.catagory}</span></h6>
                             <h6>Course Maker: {service.courseMaker}</h6>
                             <h6>Course Qantity: {service.cousreQantity}</h6>
@@ -50,6 +51,7 @@ const Services = () => {
                 </div>
                 )
             }
+            </div>
         </div>
         </div>
     );

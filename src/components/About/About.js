@@ -56,11 +56,12 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <hr />
 
 
         {/* related course */}
 
-        <h3 className="">
+        <h3 className="mt-5">
                         <span className="text-info pe-2">
                             Related topics:
                         </span> 
