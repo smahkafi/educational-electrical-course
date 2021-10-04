@@ -1,0 +1,155 @@
+[
+    {
+        "courseID": "Ak",
+        "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/bef7201a-6f97-40ad-ad17-d5ea8be1eec8-7a4629efee46.jpg",
+        "catagory": "Energy",
+        "name": "Sustainable Energy",
+        "courseMaker": "UQX",
+        "couseQantity": 3,
+        "programBadge": "MicroMasters ® Program",
+        "duration": "Estimated 6 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Define sustainability and its implications for global energy",
+            "details2": "Describe the principles of energy generation, supply and demand from the range of available technology options",
+            "details3":"Evaluate the strengths and weaknesses of energy technology options for different locations"
+        }
+    },
+    {
+        "courseID": "Dk",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/3ee3be46-26a9-4594-bd90-1a91386c534a-ccf0b9afbb2c.small.jpg",
+        "catagory": "Energy",
+        "name": "Energy Within",
+        "submName":"Environmental",
+        "subName2": "Constraints",
+        "courseMaker": "HarvardX",
+        "couseQantity": 4,
+        "programBadge": "Professional Certificate",
+        "duration": "Estimated 6 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "The physics of and how to model all aspects of a working solar cell: performance, efficiency limits and design rules.",
+            "details2": "Design concepts and fabrication processes of various photovoltaic (PV) technologies and applications.",
+            "details3":"How to evaluate components of a PV system: PV modules, inverters, DC-DC converters, batteries, charge controllers and cables."
+        }
+    },
+    {
+        "courseID": "Bk",
+        "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/8178492f-ba6b-4bf5-b5cd-524f8fb97c37-e6da723ef2da.jpg",
+        "catagory": "Solar",
+        "name": "Solar Energy Engineering",
+        "courseMaker": "DelftX",
+        "couseQantity": 6,
+        "programBadge": "Professional Certificate",
+        "duration": "Estimated 4 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Components of solar radiation, solar cells and standard solar spectrum characteristics;",
+            "details2": "Monitoring of air quality, meteorology and challenges in harsh climates;",
+            "details3":"Energy yield of PV modules and how to predict it under specific environmental conditions;"
+        }
+    },
+    {
+        "courseID": "Ck",
+        "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/6d35926a-31db-41b3-9f5d-c43767ad2bab-8cc3e398f672.jpg",
+        "catagory": "Solar",
+        "name": "Solar Energy in Hot",
+        "subName": "Desert Climates",
+        "courseMaker": "HBKUx",
+        "couseQantity": 8,
+        "programBadge": "MicroMasters ® Program",
+        "duration": "Estimated 9 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Learn how to efficiently convert biobased feedstocks into desired products.",
+            "details2": "Understand how to identify suitable raw materials and create valuable new products.",
+            "details3":"Learn how to refine biomass without damaging its valuable components."
+        }
+    },
+    {
+        "courseID": "Gk",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/5dca240a-b9fa-45c9-8f1c-8d63a661c10d-2e190a073f93.small.jpg",
+        "catagory": "Power",
+        "name": "Smart Cities,",
+        "subName": "Management of Smart",
+        "subName2": "Urban Infrastructures",
+        "courseMaker": "EPFLx",
+        "couseQantity": 6,
+        "programBadge": "MicroMasters ® Program",
+        "duration": "Estimated 5 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Define sustainability and its implications for global energy",
+            "details2": "Describe the principles of energy generation, supply and demand from the range of available technology options",
+            "details3":"Evaluate the strengths and weaknesses of energy technology options for different locations"
+        }
+    },
+    {
+        "courseID": "Hk",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/eb3ca7a7-28f9-46f1-ade2-f9d7f43ffaf4-2322ed1e23af.small.jpg",
+        "catagory": "Oil Power",
+        "name": "Introducción a Oil",
+        "subName": "Country Tubular Goods",
+        "subName2": "(OCTG)",
+        "courseMaker": "TenarisUniversity",
+        "couseQantity": 10,
+        "programBadge": "Professional Certificate",
+        "duration": "Estimated 12 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Learn how to efficiently convert biobased feedstocks into desired products.",
+            "details2": "Understand how to identify suitable raw materials and create valuable new products.",
+            "details3":"Learn how to refine biomass without damaging its valuable components."
+        }
+    },
+    {
+        "courseID": "Mk",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/ee11fadf-c75b-48ec-ae68-e40e44adef29-c4c4ac8beead.small.png",
+        "catagory": "Technology",
+        "name": "Electric Cars: Technology",
+        "courseMaker": "DelftX",
+        "couseQantity": 7,
+        "programBadge": "MicroMasters ® Program",
+        "duration": "Estimated 8 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "The physics of and how to model all aspects of a working solar cell: performance, efficiency limits and design rules.",
+            "details2": "Design concepts and fabrication processes of various photovoltaic (PV) technologies and applications.",
+            "details3":"How to evaluate components of a PV system: PV modules, inverters, DC-DC converters, batteries, charge controllers and cables."
+        }
+    },
+    {
+        "courseID": "BBk",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/6ef185bc-c3fd-426d-befc-acd3d0c7601c-565e3ec1888d.small.jpg",
+        "catagory": "Natural",
+        "name": "Natural Resources for",
+        "subName2": "Sustainable Development",
+        "courseMaker": "SDGAcademyX",
+        "couseQantity": 9,
+        "programBadge": "Professional Certificate",
+        "duration": "Estimated 9 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "Define sustainability and its implications for global energy",
+            "details2": "Describe the principles of energy generation, supply and demand from the range of available technology options",
+            "details3":"Evaluate the strengths and weaknesses of energy technology options for different locations"
+        }
+    },
+    {
+        "courseID": "CBk",
+        "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/e49c364a-07b4-40e9-ade7-99101c481ca3-012a22d39d19.jpg",
+        "catagory": "Technology",
+        "name": "Electric Cars",
+        "courseMaker": "DelftX",
+        "couseQantity": 2,
+        "programBadge": "Professional Certificate",
+        "duration": "Estimated 2 weeks",
+        "descriptions":{
+            "descriptionTitle": "What you will learn",
+            "details1": "The physics of and how to model all aspects of a working solar cell: performance, efficiency limits and design rules.",
+            "details2": "Design concepts and fabrication processes of various photovoltaic (PV) technologies and applications.",
+            "details3":"How to evaluate components of a PV system: PV modules, inverters, DC-DC converters, batteries, charge controllers and cables."
+        }
+    }
+    
+]
