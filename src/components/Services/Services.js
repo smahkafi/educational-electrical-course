@@ -12,43 +12,38 @@ const Services = () => {
     console.log(setServices);
     return (
         
-        <div className="bg-info">
+        <div className="services-background">
             <div className="container">
             {
-                services.map(service => <div className="service row d-flex border border-primary mt-5 bg-secondary">
+                services.map(service => <div className="service row d-flex border border-primary mt-5 div-services">
                         <div className="col-5 justify-content-center align-self-center">
-                            <img className="" src={service.img} alt="" />
+                            <img className="border border-danger" src={service.img} alt="" />
                         </div>
                         
-                        <div className="col-7 boder">
-                            <h5>Id: {service.courseID}</h5>
+                        <div className="col-7 boder mt-3">
+                            <h6>Id: {service.courseID}</h6>
                             <h2>Name:   <span>
-                                            {service.name}
-                                        </span> <br />
-                                        <span>
-                                            {service.subName}
+                                            {service.name} {service.subName} {service.subName2}
                                         </span>
-                                        <span>
-                                            {service.subName2}
-                                        </span> <br />
+                                      
                             </h2>
-                            <h4>Catagory: {service.catagory}</h4>
-                            <h4>Course Maker: {service.courseMaker}</h4>
-                            <h4>Vouse Qantity: {service.couseQantity}</h4>
-                            <h4>ProgramBadge: {service.programBadge}</h4>
-                            <h4>Duration: {service.duration}</h4>
-                            <h4>Fees: $ {service.fee}</h4>
-                            <h4>descriptions:</h4>
-                            <div className="mt-3 d-flex">
+                            <br />
+                            <h6>Catagory: <span className="text-warning">{service.catagory}</span></h6>
+                            <h6>Course Maker: {service.courseMaker}</h6>
+                            <h6>Course Qantity: {service.cousreQantity}</h6>
+                            <h6>ProgramBadge: {service.programBadge}</h6>
+                            <h6>Duration: {service.duration}</h6>
+                            <h6>Fees: $ {service.fee}</h6>
+                            <div className="mt-2 d-flex">
                                 <div className="col-4 justify-content-center align-self-center">
-                                    <h2>
-                                        {service.descriptions.descriptionTitle}
-                                    </h2>
+                                    <h4 className="description-title">
+                                        {service.descriptions.descriptionTitle}?
+                                    </h4>
                                 </div>
                                 <div className="col-8 justify-content-center align-self-center">
-                                    <p>{service.descriptions.details1}</p>
-                                    <p>{service.descriptions.details2}</p>
-                                    <p>{service.descriptions.details3}</p>
+                                    <h6>* {service.descriptions.details2}</h6>
+                                    <h6>* {service.descriptions.details3}</h6>
+                                    <h6>* {service.descriptions.details1}</h6>
                                 </div>
                             </div>
                         </div>

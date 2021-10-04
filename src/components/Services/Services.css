@@ -1,5 +1,17 @@
+.services-background{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.div-services{
+    background-color: rgb(240, 253, 248);
+}
 .boder{
     border: 0;
     border-left: 2px solid yellow;
     text-align: left;
+}
+.description-title{
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-right: 12px;
+    border-right: 3px solid rgb(35, 15, 214);
 }
