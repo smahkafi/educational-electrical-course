@@ -14,7 +14,7 @@ const NotFound = () => {
 
             <div>
                 <button className="text-uppercase">
-                    <Link className="menu-link" to="/home">
+                    <Link className="menu-link " to="/home">
                         Return home
                     </Link>
                 </button>

@@ -20,14 +20,14 @@ const Services = () => {
                             <img className="" src={service.img} alt="" />
                         </div>
                         
-                        <div className="col-7 border">
+                        <div className="col-7 boder">
                             <h5>Id: {service.courseID}</h5>
                             <h2>Name:   <span>
                                             {service.name}
                                         </span> <br />
                                         <span>
                                             {service.subName}
-                                        </span> <br />
+                                        </span>
                                         <span>
                                             {service.subName2}
                                         </span> <br />
@@ -40,12 +40,12 @@ const Services = () => {
                             <h4>Fees: $ {service.fee}</h4>
                             <h4>descriptions:</h4>
                             <div className="mt-3 d-flex">
-                                <div className="col-4">
-                                    <h6>
+                                <div className="col-4 justify-content-center align-self-center">
+                                    <h2>
                                         {service.descriptions.descriptionTitle}
-                                    </h6>
+                                    </h2>
                                 </div>
-                                <div className="col-8">
+                                <div className="col-8 justify-content-center align-self-center">
                                     <p>{service.descriptions.details1}</p>
                                     <p>{service.descriptions.details2}</p>
                                     <p>{service.descriptions.details3}</p>
