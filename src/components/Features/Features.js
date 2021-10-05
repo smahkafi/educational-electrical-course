@@ -18,7 +18,7 @@ const Features = () => {
                 <div className="row">
             { 
                     features.map(feature => 
-                    <div className="col-3 feature ">
+                    <div className="col-md-3 feature ">
                         <div class="card feature-card">
                             <div className="img">
                                 <img src={feature.img} className="card-img-top" alt="..."/>
@@ -32,8 +32,9 @@ const Features = () => {
                                 <li class="list-group-item card-text">Duration: {feature.duration}</li>
                             </ul>
                             <div class="card-body">
-                                <Link className="text-uppercase">see more</Link>
-                                <Link className="text-uppercase">see more</Link>
+                                <button>
+                                <Link to="/services" className="text-uppercase">see more</Link>
+                                </button>
                             </div>
                         </div>
                     </div>

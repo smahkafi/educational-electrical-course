@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="container">
            <div className="row mt-5 about-container about-radious">
-               <div className="col-5 justify-content-center align-self-center ">
+               <div className="col-md-5 col-lg-5 justify-content-center align-self-center ">
                     <h2 className="text-center about-css">About Us</h2>
                </div>
                <div className="col-7 justify-content-center align-self-center">
@@ -17,10 +17,10 @@ const About = () => {
 
            <div className="mission about-container about-radious">
                <div className="row">
-                   <div className="col-5">
+                   <div className="col-md-5 col-lg-5">
                        <img className="mission-img mission-margin"  src={`https://www.edx.org/images/about_us/impact.png`} alt="" />
                    </div>
-                   <div className="col-7 misson-content">
+                   <div className="col-lg-7 misson-content">
                        <h2 className="">Our Mission</h2>
                        <p> There are three commitments we've made to the world. We've been grounded by these since day one: Increase access to high-quality education for everyone, everywhere Enhance teaching and learning on campus and online Advance teaching and learning through research</p>
                    </div>
@@ -30,7 +30,7 @@ const About = () => {
 
             <div className="rate mt-5 py-5 about-container about-radious">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-lg-4">
                         <h2>3000+</h2>
                         <p>courses</p>
                     </div>

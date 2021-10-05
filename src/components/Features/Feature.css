@@ -3,7 +3,24 @@
     padding: 0 !important;
 }
 .feature-card{
-    height: 430px;
+    min-height: 460px;
     margin: 0 5px;
-    border: 2px solid rgb(233, 215, 188)
+    border: 2px solid rgb(233, 215, 188);
+    background-color: rgb(245, 247, 236);
+}
+.img .card-img-top{
+    height: 220px;
+}
+.feature-card .card-body button{
+    border: 0;
+    border: 3px solid rgb(126, 18, 18);
+    border-radius: 50px 50px;
+    background-color: rgba(194, 158, 185, 0.342);
+    
+}
+.feature-card .card-body button .text-uppercase{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
 }
