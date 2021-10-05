@@ -17,7 +17,7 @@ const About = () => {
 
            <div className="mission about-container about-radious">
                <div className="row">
-                   <div className="col-md-5 col-lg-5">
+                   <div className="col-md-5 col-lg-5 justify-content-center align-self-center">
                        <img className="mission-img mission-margin"  src={`https://www.edx.org/images/about_us/impact.png`} alt="" />
                    </div>
                    <div className="col-lg-7 misson-content">
