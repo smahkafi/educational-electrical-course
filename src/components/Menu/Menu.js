@@ -4,8 +4,8 @@ import './Menu.css'
 
 const Menu = () => {
     return (
-        <div>
-            <div className="container">
+        <div className="bg-info">
+            <div className="container nav-bg-color fixed-top">
                 <div className="row align-self-center">
                     <div className="col-3">
                         <div>

@@ -14,7 +14,7 @@ const Services = () => {
         
         <div className="services-background mb-5">
             <div className="container">
-            <div>
+            <div className="pt-5">
             {
                 services.map(service => 
                 <div className="service row d-flex border border-primary div-services mb-4">
@@ -29,7 +29,7 @@ const Services = () => {
                             </h2>
                             <br />
                             <h6>Id: {service.courseID}</h6>
-                            <h6>Catagory: <span className="text-warning">{service.catagory}</span></h6>
+                            <h6>Category: <span className="text-warning">{service.category}</span></h6>
                             <h6>Course Maker: {service.courseMaker}</h6>
                             <h6>Course Qantity: {service.cousreQantity}</h6>
                             <h6>ProgramBadge: {service.programBadge}</h6>

@@ -1,22 +1,25 @@
-.about-container{
-    background-color: rgba(193, 218, 181, 0.212);
+.about-container {
+  background-color: rgba(193, 218, 181, 0.212);
 }
 .related2 {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
-.about-css{
-    padding: 150px 0;
-    box-sizing: border-box;
-    margin-right: 12px;
-    border-right: 3px solid rgb(35, 15, 214);
+.about-css {
+  padding: 150px 0;
+  box-sizing: border-box;
+  margin-right: 12px;
+  border-right: 3px solid rgb(35, 15, 214);
 }
-.mission .mission-img{
-    width: 400px;
-    height: 320px;
+.mission .mission-img {
+  width: 400px;
+  height: 320px;
 }
-.misson-content{
-    padding: 150px 0;
-    box-sizing: border-box;
-    margin-left: -25px;
-    border-left: 3px solid rgb(35, 15, 214);
+.misson-content {
+  padding: 150px 0;
+  box-sizing: border-box;
+  margin-left: -25px;
+  border-left: 3px solid rgb(35, 15, 214);
+}
+.about-radious {
+  border-radius: 0px 40px;
 }

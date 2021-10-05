@@ -2,7 +2,7 @@
     {
         "courseID": "Ak",
         "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/bef7201a-6f97-40ad-ad17-d5ea8be1eec8-7a4629efee46.jpg",
-        "catagory": "Energy",
+        "category": "Energy",
         "name": "Sustainable Energy",
         "fee": 400,
         "courseMaker": "UQX",
@@ -19,7 +19,7 @@
     {
         "courseID": "Dk",
         "img": "https://prod-discovery.edx-cdn.org/media/course/image/3ee3be46-26a9-4594-bd90-1a91386c534a-ccf0b9afbb2c.small.jpg",
-        "catagory": "Energy",
+        "category": "Energy",
         "name": "Energy Within",
         "submName":"Environmental",
         "subName2": "Constraints",
@@ -38,7 +38,7 @@
     {
         "courseID": "Bk",
         "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/8178492f-ba6b-4bf5-b5cd-524f8fb97c37-e6da723ef2da.jpg",
-        "catagory": "Solar",
+        "category": "Solar",
         "name": "Solar Energy Engineering",
         "fee": 300,
         "courseMaker": "DelftX",
@@ -55,7 +55,7 @@
     {
         "courseID": "Ck",
         "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/6d35926a-31db-41b3-9f5d-c43767ad2bab-8cc3e398f672.jpg",
-        "catagory": "Solar",
+        "category": "Solar",
         "name": "Solar Energy in Hot",
         "subName": "Desert Climates",
         "fee": 600,
@@ -73,7 +73,7 @@
     {
         "courseID": "Gk",
         "img": "https://prod-discovery.edx-cdn.org/media/course/image/5dca240a-b9fa-45c9-8f1c-8d63a661c10d-2e190a073f93.small.jpg",
-        "catagory": "Power",
+        "category": "Power",
         "name": "Smart Cities,",
         "subName": "Management of Smart",
         "subName2": "Urban Infrastructures",
@@ -92,7 +92,7 @@
     {
         "courseID": "Hk",
         "img": "https://prod-discovery.edx-cdn.org/media/course/image/eb3ca7a7-28f9-46f1-ade2-f9d7f43ffaf4-2322ed1e23af.small.jpg",
-        "catagory": "Oil Power",
+        "category": "Oil Power",
         "name": "Introducción a Oil",
         "subName": "Country Tubular Goods",
         "subName2": "(OCTG)",
@@ -111,7 +111,7 @@
     {
         "courseID": "Mk",
         "img": "https://prod-discovery.edx-cdn.org/media/course/image/ee11fadf-c75b-48ec-ae68-e40e44adef29-c4c4ac8beead.small.png",
-        "catagory": "Technology",
+        "category": "Technology",
         "name": "Electric Cars: Technology",
         "fee": 700,
         "courseMaker": "DelftX",
@@ -128,7 +128,7 @@
     {
         "courseID": "BBk",
         "img": "https://prod-discovery.edx-cdn.org/media/course/image/6ef185bc-c3fd-426d-befc-acd3d0c7601c-565e3ec1888d.small.jpg",
-        "catagory": "Natural",
+        "category": "Natural",
         "name": "Natural Resources for",
         "subName2": "Sustainable Development",
         "fee": 950,
@@ -146,7 +146,7 @@
     {
         "courseID": "CBk",
         "img": "https://prod-discovery.edx-cdn.org/media/programs/card_images/e49c364a-07b4-40e9-ade7-99101c481ca3-012a22d39d19.jpg",
-        "catagory": "Technology",
+        "category": "Technology",
         "name": "Electric Cars",
         "fee": 200,
         "courseMaker": "DelftX",

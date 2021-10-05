@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import './Feature.css'
 
@@ -13,28 +14,36 @@ const Features = () => {
         <div>
             <Banner></Banner>
             <h1 className="my-5">Feature Popular <span className="text-warning">Courses</span></h1>
-           <div className="container">
-           <div className="row">
-           { 
-            features.map(feature => 
-            <div className="col-3 feature ">
-                    <div className="card feature-card">
-                        <div className="img">
-                        <img src={feature.img} className="card-img-top" alt="..."/>
-                        </div>
-                        <div className="card-body">
-                            <h5 className="card-title">Course Name: {feature.name}</h5>
-                            <p className="card-text">Fee: $ {feature.fee}</p>
-                            <p className="card-text">Course Qantity: {feature.cousreQantity}</p>
-                            <p className="card-text">Duration: {feature.duration}</p>
+            <div className="container">
+                <div className="row">
+            { 
+                    features.map(feature => 
+                    <div className="col-3 feature ">
+                        <div class="card feature-card">
+                            <div className="img">
+                                <img src={feature.img} className="card-img-top" alt="..."/>
+                            </div>
+                            <div class="card-body">
+                                <h5 className="card-title">{feature.name}</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item card-text">Fee: $ {feature.fee}</li>
+                                <li class="list-group-item card-text">Course Qantity: {feature.cousreQantity}</li>
+                                <li class="list-group-item card-text">Duration: {feature.duration}</li>
+                            </ul>
+                            <div class="card-body">
+                                <Link className="text-uppercase">see more</Link>
+                                <Link className="text-uppercase">see more</Link>
+                            </div>
                         </div>
                     </div>
-            </div>)
-           }
-           </div>
-           </div>
+                    )
+            }
+                </div>
+            </div>
         </div>
     );
 };
 
 export default Features;
+

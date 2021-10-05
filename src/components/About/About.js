@@ -4,8 +4,8 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container about-container">
-           <div className="row mt-5 ">
+        <div className="container">
+           <div className="row mt-5 about-container about-radious">
                <div className="col-5 justify-content-center align-self-center ">
                     <h2 className="text-center about-css">About Us</h2>
                </div>
@@ -15,7 +15,7 @@ const About = () => {
            </div>
            <hr />
 
-           <div className="mission">
+           <div className="mission about-container about-radious">
                <div className="row">
                    <div className="col-5">
                        <img className="mission-img mission-margin"  src={`https://www.edx.org/images/about_us/impact.png`} alt="" />
@@ -26,9 +26,9 @@ const About = () => {
                    </div>
                </div>
            </div>
-
-            <div className="rate mt-5">
             <hr />
+
+            <div className="rate mt-5 py-5 about-container about-radious">
                 <div className="row">
                     <div className="col-4">
                         <h2>3000+</h2>
@@ -42,6 +42,7 @@ const About = () => {
                         <h2>35 million</h2>
                         <p>users</p>
                     </div>
+                    <hr />
                     <div className="col-4">
                         <h2>160</h2>
                         <p>partners</p>
@@ -60,46 +61,44 @@ const About = () => {
 
 
         {/* related course */}
-
-        <h3 className="mt-5">
-                        <span className="text-info pe-2">
-                            Related topics:
-                        </span> 
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Agriculture</Link>
-                            </span> | 
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Biorefinery</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Chemistry</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Sciences</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Earth</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Electric Cars</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Electricity</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Nature</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Oil</Link>
-                            </span> |  
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Solar Energy</Link>
-                            </span> | 
-                            <span className="related">
-                                <Link  to="/" className=" related2 text-secondary">Nuclear Energy</Link>
-                            </span>
-                    </h3>
-
+            <h3 className="mt-5 about-container about-radious">
+                <span className="text-info pe-2">
+                     Related topics:
+                </span> 
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Agriculture</Link>
+                </span> | 
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Biorefinery</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Chemistry</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Sciences</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Earth</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Electric Cars</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Electricity</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Nature</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Oil</Link>
+                </span> |  
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Solar Energy</Link>
+                </span> | 
+                <span className="related">
+                    <Link  to="/" className=" related2 text-secondary">Nuclear Energy</Link>
+                </span>
+            </h3>
         </div>
     );
 };
