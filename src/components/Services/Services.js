@@ -51,7 +51,7 @@ const Services = () => {
                         </div>
                         <hr />
 
-                        <div className="btn btn-primary">
+                        <div className="btn btn-primary enroll-btn">
                             <Link className="text-white text-uppercase text-decoration-none " to="/home">Enroll Now</Link>
                         </div>
                 </div>

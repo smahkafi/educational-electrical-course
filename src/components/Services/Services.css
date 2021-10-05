@@ -24,3 +24,6 @@
 .service{
     border-radius: 0px 30px;
 }
+.enroll-btn{
+    border-radius: 0px 50px 0px 50px !important;
+}
