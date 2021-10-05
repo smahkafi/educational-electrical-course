@@ -1,5 +1,5 @@
 .menu-link {
-    color: black !important;
+    color: white !important;
     text-decoration: none !important;
     font-size: 22px;
 }
@@ -10,6 +10,6 @@
     padding: 0;
 }
 .nav-bg-color{
-    background-color: azure;
+    background-color: rgb(24, 27, 27);
     border-radius: 0px 0px 60px 60px;
 }

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
             <div className="bg-dark">
                 <div className="container">
-                    <div className="row">
+                    <div className="row py-5">
                         <div className="col-4 p-0 mt-3">
                             <div className="footer-menu-container">
                                 <ul className="m-0 p-0">

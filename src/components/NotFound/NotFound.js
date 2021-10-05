@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NotFound.css'
 
 const NotFound = () => {
     return (
-        <div className="m-5">
+        <div className="not-found">
             <h1 className="text-uppercase"> 404 error</h1>
             <h2 className="text-uppercase">
                 Opps! Page not found
@@ -13,7 +14,7 @@ const NotFound = () => {
             </p>
 
             <div>
-                <button className="text-uppercase">
+                <button className="btn btn-primary">
                     <Link className="menu-link " to="/home">
                         Return home
                     </Link>

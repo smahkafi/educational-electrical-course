@@ -17,7 +17,7 @@ const Partners = () => {
             <div className="row">
             {
                 partners.map(partner => 
-                        <div className="col-3 mt-3 mb-3">
+                        <div key={partner.id} className="col-3 mt-3 mb-3">
                             <div className="card border border-secondary partner rounded" style={{width: "18rem"}}>
                                 <div>
                                     <img src={partner.img} className="card-img-top" alt="..."/>
