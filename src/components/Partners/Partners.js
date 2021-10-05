@@ -10,7 +10,7 @@ const Partners = () => {
         .then(data => setPartners(data))
     },[])
     return (
-        <div className="container">
+        <div className="container pt-5 rounded">
             <h2 className="mt-5 bg-secondary py-4">
             <span className="text-white"> Schools </span> <span className="text-warning">Partners</span>
             </h2>

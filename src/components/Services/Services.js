@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Services.css'
 
 const Services = () => {
@@ -12,9 +13,9 @@ const Services = () => {
     console.log(setServices);
     return (
         
-        <div className="services-background mb-5">
+        <div className="services-background">
             <div className="container">
-            <div className="pt-5">
+            <div className="service-card">
             {
                 services.map(service => 
                 <div className="service row d-flex border border-primary div-services mb-4">
@@ -47,6 +48,11 @@ const Services = () => {
                                     <h6>* {service.descriptions.details1}</h6>
                                 </div>
                             </div>
+                        </div>
+                        <hr />
+
+                        <div className="btn btn-primary">
+                            <Link className="text-white text-uppercase text-decoration-none " to="/home">Enroll Now</Link>
                         </div>
                 </div>
                 )

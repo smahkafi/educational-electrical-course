@@ -32,8 +32,8 @@ const Features = () => {
                                 <li class="list-group-item card-text">Duration: {feature.duration}</li>
                             </ul>
                             <div class="card-body">
-                                <button>
-                                <Link to="/services" className="text-uppercase">see more</Link>
+                                <button className="">
+                                <Link to="/services" className="text-uppercase btn btn-primary rounded">see more</Link>
                                 </button>
                             </div>
                         </div>

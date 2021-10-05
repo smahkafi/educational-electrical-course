@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container">
+        <div className="container pt-5">
            <div className="row mt-5 about-container about-radious">
                <div className="col-md-5 col-lg-5 justify-content-center align-self-center ">
                     <h2 className="text-center about-css">About Us</h2>
@@ -61,7 +61,7 @@ const About = () => {
 
 
         {/* related course */}
-            <h3 className="mt-5 about-container about-radious">
+            <h3 className="mt-5 about-container about-radious py-2">
                 <span className="text-info pe-2">
                      Related topics:
                 </span> 
