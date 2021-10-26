@@ -30,7 +30,8 @@ const Footer = () => {
                                 <br />
                                 Camp Hill, PA 17011
                                 </span><br />
-                                <span className="text-white" >Phone: +3-9-500-777-11-00</span>
+                                <span className="text-white" >Phone: +8801703-075837</span>
+                                <span className="text-white" >Email: sakafi.m@gmail.com</span>
                             </div>
                         </div>
 
